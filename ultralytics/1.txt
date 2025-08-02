@@ -1,0 +1,59 @@
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=yolov10n.pt epochs=50 batch=16 imgsz=640 device=0
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=yolov8n.pt epochs=50 batch=32 imgsz=640 device=0
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=yolov5n.pt epochs=50 batch=16 imgsz=640 device=0
+
+
+
+train:
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=yolov10n.yaml epochs=25 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2.yaml epochs=25 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2+EMA+DualConv.yaml epochs=25 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2+DualConv.yaml epochs=25 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2+EMA.yaml epochs=25 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-3.yaml epochs=25 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8+EMA-2.yaml epochs=25 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8+EMA+DualConv.yaml epochs=30 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8+EMA.yaml epochs=25 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=yolov8n.yaml epochs=25 batch=32 imgsz=640 device=0           ************************
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-FasterBlock.yaml epochs=25 batch=32 imgsz=640 device=0
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2+EMA+FasterBlock.yaml epochs=25 batch=32 imgsz=640 device=0
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2+EMA+FasterBlock.yaml epochs=30 batch=32 imgsz=640 device=0
+
+1
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2+EMA+FasterBlock-1.yaml epochs=25 batch=32 imgsz=640 device=0
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2+EMA+FasterBlock-1.yaml epochs=30 batch=32 imgsz=640 device=0
+
+1
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8+EMA-2.yaml epochs=25 batch=32 imgsz=640 device=0
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2+C2f-DualConv+EMA.yaml epochs=25 batch=32 imgsz=640 device=0
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=ultralytics/cfg/models/v10/yolov10n-tov8-2+DualConv.yaml epochs=25 batch=32 imgsz=640 device=0
+
+1
+
+predict:
+yolo predict model=runs/detect/yolov10+C2f-DualConv-30/weights/best.pt source=ultralytics/assets/1
+
+yolo detect train data=ultralytics/cfg/datasets/data.yaml model=F:\xianyu\2024.7.8\yolov10\runs\detect\batch_size=32\25\YOLOv10n-tov8-2+EMA-25-2\weights\best.pt epochs=1 batch=32 imgsz=640 device=0
+
+
+yolo predict model=runs/detect/batch_size=32/yolov10n-tov8-2+C2f-DualConv+EMA新/weights/best.pt source=ultralytics/assets/1
