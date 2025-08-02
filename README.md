@@ -37,14 +37,14 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @article{tan2024enhanced,
-  title={Enhanced Self-Checkout System for Retail Based on Improved YOLOv10},
+  title={Enhanced self-checkout system for retail based on improved YOLOv10},
   author={Tan, Lianghao and Liu, Shubing and Gao, Jing and Liu, Xiaoyi and Chu, Linyue and Jiang, Huangqi},
   journal={Journal of Imaging},
   volume={10},
   number={10},
   pages={248},
   year={2024},
-  publisher={MDPI},
-  doi={10.3390/jimaging10100248}
+  publisher={MDPI}
 }
+
 ```
